@@ -17,7 +17,7 @@ Este es el primer desafío de Frontend Mentor, donde hay que replicar una imagen
 
 ### Capturas de pantalla
 
-![Captura del desafío de componente QR en viewport de escritorio](./images/screenshots/deskop.png)
+![Captura del desafío de componente QR en viewport de escritorio](./images/screenshots/desktop.png)
 
 ![Captura del desafío de componente QR en viewport de dispositivo móvil](./images/screenshots/mobile.png)
 
