@@ -1,2 +1,82 @@
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap')
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color-scheme: dark light;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.body-container {
+    background-color: hsl(212, 45%, 89%);
+    color: hsl(218, 44%, 22%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    max-width: 300px;
+    width: 90%;
+    max-height: 533px;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.tarjeta-sombra {
+    box-shadow: 0 4px 6px rgba(10,30,60,0.1);
+}
+
+.tarjeta-imagen {
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.tarjeta-contenido {
+    padding: 15px 0px;
+}
+
+.tarjeta-titulo {
+    font-weight: 700;
+}
+
+.tarjeta-texto {
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    padding-top: 15px;
+}
+
+/*footer*/
+.attribution {
+    padding: 1rem;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
